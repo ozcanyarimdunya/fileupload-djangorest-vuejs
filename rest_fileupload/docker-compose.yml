@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+
+  web:
+    build: .
+    command: sh run.sh
+    ports:
+      - 8000:8000
